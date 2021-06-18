@@ -21,7 +21,7 @@ export interface IOptions {
 export type ProcessCallback = (str: string) => Promise<any>;
 ```
 
-## Process string
+## Process string
 
 ```ts
 public process(str: string): Promise<void>
