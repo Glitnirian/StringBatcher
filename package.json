@@ -1,6 +1,6 @@
 {
   "name": "stringbatcher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A string processing batcher by chunks decomposition and handling!",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -38,5 +38,13 @@
     "url": "https://github.com/Glitnirian/StringBatcher/issues"
   },
   "homepage": "https://github.com/Glitnirian/StringBatcher#readme",
-  "keywords": ["String", "Batcher", "batching", "processing", "Notification", "Decompose", "chunks"]
+  "keywords": [
+    "String",
+    "Batcher",
+    "batching",
+    "processing",
+    "Notification",
+    "Decompose",
+    "chunks"
+  ]
 }
