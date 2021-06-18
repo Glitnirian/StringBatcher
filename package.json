@@ -37,5 +37,6 @@
   "bugs": {
     "url": "https://github.com/Glitnirian/StringBatcher/issues"
   },
-  "homepage": "https://github.com/Glitnirian/StringBatcher#readme"
+  "homepage": "https://github.com/Glitnirian/StringBatcher#readme",
+  "keywords": ["String", "Batcher", "batching", "processing", "Notification", "Decompose", "chunks"]
 }

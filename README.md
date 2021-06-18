@@ -4,6 +4,10 @@ A string processing batcher by chunks decomposition and handling!
 
 Take string => process chunk by chunk!
 
+Can be useful to all kind of things! One example would be to use with a notifier for a platform where messages are limited in size! For example telegram! By using the string batcher! You can create a notif method! That break down the long message! And send it by chunks automatically!
+
+That just an example! It's a simple module for string batch processing!
+
 ## Construction
 
 Constructor options:
