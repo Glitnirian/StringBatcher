@@ -42,8 +42,10 @@ export function getStringBatchNotifier({
 
   const stringBatcher = new StringBatcher({
       batchSize: stringBatcherOptions.batchSize || 4000,
-      process: async (message) => {
-          await notificationSystem.groupChat_sendTo({ message });
+      process: async (chunk) => {
+        // One check processing
+        // in this example! Send a part of the message (telegram)
+        await notificationSystem.groupChat_sendTo({ message: chunk });
       }
   });
 
